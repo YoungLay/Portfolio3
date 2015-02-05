@@ -1,0 +1,85 @@
+/* Border custimaziotions of the container on my pages*/
+div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 30px;
+}
+
+.container {
+    border-color: black;
+}
+
+.row {
+    border-color: yellow;
+}
+
+.list-group-item {
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body{   
+ background-image:url(http://hdwallpaperia.com/wp-content/uploads/2013/12/Cool-Nike-Logo-Pictures.png) 
+}
+a{
+    color: black;
+}
+/* Colors of font in paragraphs and headers */
+
+p{
+    color: black;
+}
+
+h2{
+    color: gold;
+}
+
+    h3{
+    background-color:blueviolet;
+    color:pink;
+    padding:10px;
+}
+
+h4{
+    color: gold;
+}
+/* Slide show custumizations */
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#slideshow img {
+    max-width:240px;
+    max-height:240px;
+}
+ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+ul li {
+    float:left;
+    border-radius:10px;
+    width:10px;
+    height:10px;
+    border:1px solid white;
+    background:grey;
+}
+ul li.active {
+    background:black;
+}
